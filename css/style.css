@@ -794,8 +794,23 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	07) DIZME PORTFOLIO
+/*	Projects
 /*---------------------------------------------------*/
+.dizme_tm_projects {
+	width: 100%;
+	height: auto;
+	display: flex;
+	/* clear: both;
+	float: left; */
+	padding-top: 120px;
+	position: relative;
+	margin-bottom: 150px;
+}
+.dizme_tm_projects .container .project-grid {
+	display: grid;
+	column-gap: 150px;
+	row-gap: 250px;
+}
 
 .dizme_tm_main_title{
 	width: 100%;
@@ -806,18 +821,14 @@ h6 { font-size: 16px; }
 	margin: 0px auto;
 	
 }
-.dizme_tm_main_title[data-align="left"]{
-	text-align: left;
-	margin: 0px !important;
-}
 .dizme_tm_main_title[data-align="center"]{
 	text-align: center;
 	margin: 0px auto;
 }
-.dizme_tm_main_title[data-align="right"]{
+/* .dizme_tm_main_title[data-align="right"]{
 	text-align: right;
 	margin: 0px !important;
-}
+} */
 .dizme_tm_main_title span{
 	font-size: 24px;
 	font-weight: 500;
@@ -827,135 +838,13 @@ h6 { font-size: 16px; }
 	margin-bottom: 6px;
 }
 .dizme_tm_main_title h3{
-	font-size: 48px;
+	font-size: 35px;
 	line-height: 1.25;
 	margin-bottom: 23px;
 }
-.dizme_tm_portfolio{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding-top: 185px;
-	margin-bottom: 165px;
-	position: relative;
-}
-.portfolio .grid {
-}
-/* 
-/*---------------------------------------------------*/
-/*	08) DIZME SKILLS
-/*---------------------------------------------------*/
-
-.dizme_tm_skills{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.dizme_tm_skills .wrapper{
-	width: 100%;
-	height: auto;
-	clear: both;
-	display: flex;
-	align-items: center;
-}
-.dizme_tm_skills .left{
-	width: 50%;
-	padding-right: 100px;
-}
-.dodo_progress{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding-top: 30px;
-	overflow: hidden;
-}
-.progress_inner{
-	width:100%;
-	margin-bottom:22px;
-}
-.progress_inner:last-child{
-	margin-bottom: 0px;
-}
-.progress_inner > span{
-	margin:0px 0px 9px 0px;
-	display:block;
-	text-align:left;
-	position: relative;
-}
-.progress_inner span.label{
-	opacity: 0;
-	transform: translateY(10px);
-	display: block;
-	color: #000;
-	font-size: 18px;
-	font-weight: 500;
-	font-family: 'Jost', sans-serif;
-	
-	-webkit-transition: all .5s ease;
-	   -moz-transition: all .5s ease;
-	    -ms-transition: all .5s ease;
-	     -o-transition: all .5s ease;
-	        transition: all .5s ease;
-}
-.progress_inner span.label.opened{
-	opacity: 1;
-	transform: translateY(0px);
-}
-.progress_inner span.number{
-	float: right;
-	position: absolute;
-	right: 100%;
-	bottom: -2px;
-	transition: all 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
-	color: #f75023;
-	font-size: 16px;
-	font-family: 'Jost', sans-serif;
-}
-.progress_inner .background{
-	background:#e7e5f1;
-	width:100%;
-	min-width:100%;
-	position:relative;
-	height:8px;
-	border-radius: 50px;
-}
-.progress_inner .background .bar_in{
-	height:8px;
-	width:0px;
-	overflow:hidden;
-	border-top-left-radius: 50px;
-	border-bottom-left-radius: 50px;
-	position: relative;
-	top: 0px;
-}
-.progress_inner .background .bar{
-	width:0px;
-	height:100%;
-}
-.progress_inner .background .bar.open{
-	-webkit-animation: wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
-	-moz-animation:    wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
-	animation:         wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
-	width:100%;	
-}
-
-@-webkit-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
-@-moz-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
-@keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
-
-.dizme_tm_skills .right{
-	width: 50%;
-	padding-left: 100px;
-}
-.dizme_tm_skills .right img{
-	max-height: 800px;
-}
 
 /*---------------------------------------------------*/
-/*	09) DIZME SERVICES
+/*	SkillS
 /*---------------------------------------------------*/
 
 .dizme_tm_full_link{
@@ -966,7 +855,7 @@ h6 { font-size: 16px; }
 	right: 0px;
 	z-index: 5;
 }
-.dizme_tm_services{
+.dizme_tm_skills{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -975,14 +864,14 @@ h6 { font-size: 16px; }
 	margin-bottom: 160px;
 	position: relative;
 }
-.dizme_tm_services .service_list{
+.dizme_tm_skills .skills_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 86px;
 }
-.dizme_tm_services .service_list ul{
+.dizme_tm_skills .skills_list ul{
 	margin: 0px 0px 0px -25px;
 	list-style-type: none;
 	display: flex;
@@ -990,13 +879,13 @@ h6 { font-size: 16px; }
 	position: relative;
 	z-index: 3;
 }
-.dizme_tm_services .service_list ul li{
+.dizme_tm_skills .skills_list ul li{
 	margin: 0px 0px 25px 0px;
 	width: 50%;
 	float: left;
 	padding-left: 25px;
 }
-.dizme_tm_services .service_list ul li .list_inner{
+.dizme_tm_skills .skills_list ul li .list_inner{
 	width: 100%;
 	height: 100%;
 	clear: both;
@@ -1007,43 +896,43 @@ h6 { font-size: 16px; }
 	box-shadow: 18px 0px 87px rgba(10,15,70,.07);
 	padding: 65px 65px 65px 195px;
 }
-.dizme_tm_services .service_list ul li.simple .list_inner{
+.dizme_tm_skills .skills_list ul li.simple .list_inner{
 	box-shadow: none;
 	border-radius: 0px;
 	padding: 0px 60px 0px 0px;
 	background-color: transparent;
 }
-.dizme_tm_services .service_list ul li.text{
+.dizme_tm_skills .skills_list ul li.text{
 	text-align: center;
 	padding: 0px 100px;
 }
-.dizme_tm_services .service_list .title{
+.dizme_tm_skill .skills_list .title{
 	width: 100%;
 	float: left;
 	margin-bottom: 19px;
 }
-.dizme_tm_services .service_list .title h3{
+.dizme_tm_skills .skills_list .title h3{
 	font-size: 30px;
 	margin-bottom: 16px;
 }
-.dizme_tm_services .service_list .price{
+.dizme_tm_skills .skills_list .price{
 	font-weight: 500;
 	font-size: 21px;
 	color: #000;
 	font-family: 'Jost', sans-serif;
 }
-.dizme_tm_services .service_list .price span{
+.dizme_tm_skills .skills_list .price span{
 	font-size: 24px;
 	color: #f75023;
 }
-.dizme_tm_services .service_list .icon{
+.dizme_tm_skills .skills_list .icon{
 	position: absolute;
 	left: 65px;
 	top: 65px;
 	width: 95px;
 	height: 95px;
 }
-.dizme_tm_services .service_list .icon .svg{
+.dizme_tm_skills .skills_list .icon .svg{
 	width: 45px;
 	height: 45px;
 	top: 50%;
@@ -1053,55 +942,55 @@ h6 { font-size: 16px; }
 	z-index: 2;
 	color: #E8060A;
 }
-.dizme_tm_services .service_list .icon .back{
+.dizme_tm_skills .skills_list .icon .back{
 	position: absolute;
 	max-width: 95px;
 	top: 0px;
 }
-.dizme_tm_services .service_list .wrapper{
+.dizme_tm_skills .skills_list .wrapper{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
 }
-.dizme_tm_services .service_list .wrapper h3{
+.dizme_tm_skills .skills_list .wrapper h3{
 	font-size: 36px;
 	font-weight: 700;
 	letter-spacing: -.2px;
 	margin-bottom: 35px;
 }
-.dizme_tm_services .popup_service_image{
+.dizme_tm_skills .popup_skill_image{
 	opacity: 0;
 	visibility: hidden;
 	display: none;
 	position: absolute;
 	z-index: -111;
 }
-.dizme_tm_services .service_hidden_details{
+.dizme_tm_skills .skill_hidden_details{
 	opacity: 0;
 	visibility: hidden;
 	display: none;
 	position: absolute;
 	z-index: -111;
 }
-.dizme_tm_modalbox .service_popup_informations{
+.dizme_tm_modalbox .skill_popup_informations{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.dizme_tm_modalbox .service_popup_informations .image{
+.dizme_tm_modalbox .skill_popup_informations .image{
 	width: 100%;
 	float: left;
 	position: relative;
 	margin-bottom: 37px;
 }
-.dizme_tm_modalbox .service_popup_informations .image img{
+.dizme_tm_modalbox .skill_popup_informations .image img{
 	position: relative;
 	min-width: 100%;
 	opacity: 0;
 }
-.dizme_tm_modalbox .service_popup_informations .image .main{
+.dizme_tm_modalbox .skill_popup_informations .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1112,44 +1001,44 @@ h6 { font-size: 16px; }
 	background-position: center;
 	border-radius: 12px;
 }
-.dizme_tm_modalbox .service_popup_informations .main_title{
+.dizme_tm_modalbox .skill_popup_informations .main_title{
 	width: 100%;
 	float: left;
 	margin-bottom: 23px;
 }
-.dizme_tm_modalbox .service_popup_informations .main_title h3{
+.dizme_tm_modalbox .skill_popup_informations .main_title h3{
 	font-size: 30px;
 	margin-bottom: 5px;
 }
-.dizme_tm_modalbox .service_popup_informations .main_title span{
+.dizme_tm_modalbox .skill_popup_informations .main_title span{
 	font-weight: 500;
     font-size: 21px;
     color: #000;
     font-family: 'Jost', sans-serif;
 }
-.dizme_tm_modalbox .service_popup_informations .main_title span span{
+.dizme_tm_modalbox .skill_popup_informations .main_title span span{
 	font-size: 24px;
     color: #f75023;
 }
-.dizme_tm_modalbox .service_popup_informations .descriptions{
+.dizme_tm_modalbox .skill_popup_informations .descriptions{
 	width: 100%;
 	float: left;
 }
-.dizme_tm_modalbox .service_popup_informations .descriptions p{
+.dizme_tm_modalbox .skill_popup_informations .descriptions p{
 	margin-bottom: 15px;
 }
-.dizme_tm_modalbox .service_popup_informations .descriptions p:last-child{
+.dizme_tm_modalbox .skill_popup_informations .descriptions p:last-child{
 	margin-bottom: 0px;
 }
-.dizme_tm_services .brush_1{
+.dizme_tm_skills .brush_1{
 	position: absolute;
 	top: 300px;
 	left: 0px;
 }
-.dizme_tm_services .brush_1 img{
+.dizme_tm_skills .brush_1 img{
 	max-width: 460px;
 }
-.dizme_tm_services .brush_2{
+.dizme_tm_skills .brush_2{
 	position: absolute;
 	top: 0px;
 	right: 0px;
