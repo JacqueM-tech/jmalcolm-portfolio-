@@ -95,15 +95,15 @@ h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
 
-.dizme_tm_all_wrap{
+.portfolio_all_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.dizme_tm_all_wrap,
-.dizme_tm_all_wrap *{
+.portfolio_all_wrap,
+.portfolio_all_wrap *{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -237,7 +237,7 @@ h6 { font-size: 16px; }
 /*	MOBILE MENU
 /*---------------------------------------------------*/
 
-.dizme_tm_mobile_menu{
+.portfolio_mobile_menu{
 	width: 100%;
 	height: auto;
 	position: fixed;
@@ -246,7 +246,7 @@ h6 { font-size: 16px; }
 	display: none;
 	z-index: 10;
 }
-.dizme_tm_mobile_menu .mobile_menu_inner{
+.portfolio_mobile_menu .mobile_menu_inner{
 	width: 100%;
 	height: auto;
 	float: left;
@@ -255,7 +255,7 @@ h6 { font-size: 16px; }
 	border-bottom: 1px solid rgba(0,0,0,.1);
 	padding: 10px 20px 10px 20px;
 }
-.dizme_tm_mobile_menu .mobile_in{
+.portfolio_mobile_menu .mobile_in{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -264,14 +264,14 @@ h6 { font-size: 16px; }
 	align-items: center;
 	justify-content: space-between;
 }
-.dizme_tm_mobile_menu .mobile_in .logo img{
+.portfolio_mobile_menu .mobile_in .logo img{
 	max-width: 90px;
 	max-height: 70px;
 }
-.dizme_tm_mobile_menu .trigger{
+.portfolio_mobile_menu .trigger{
 	line-height: 0;
 }
-.dizme_tm_mobile_menu .dropdown{
+.portfolio_mobile_menu .dropdown{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -279,23 +279,23 @@ h6 { font-size: 16px; }
 	background-color: #fff;
 	display: none;
 }
-.dizme_tm_mobile_menu .dropdown .dropdown_inner{
+.portfolio_mobile_menu .dropdown .dropdown_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 25px 40px;
 }
-.dizme_tm_mobile_menu .dropdown .dropdown_inner ul{
+.portfolio_mobile_menu .dropdown .dropdown_inner ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.dizme_tm_mobile_menu .dropdown .dropdown_inner ul li{
+.portfolio_mobile_menu .dropdown .dropdown_inner ul li{
 	margin: 0px;
 	float: left;
 	width: 100%;
 }
-.dizme_tm_mobile_menu .dropdown .dropdown_inner ul li a{
+.portfolio_mobile_menu .dropdown .dropdown_inner ul li a{
 	text-decoration: none;
 	color: #000;
 	display: inline-block;
@@ -303,25 +303,25 @@ h6 { font-size: 16px; }
 	font-family: 'Jost', sans-serif;
 	font-weight: 500;
 }
-.dizme_tm_mobile_menu .download_cv{
+.portfolio_mobile_menu .download_cv{
 	padding-top: 20px;
 }
-.dizme_tm_mobile_menu .download_cv a{
+.portfolio_mobile_menu .download_cv a{
 	color: #fff !important;
 	border-radius: 50px;
 	background-color: #f75023;
 	padding: 7px 40px !important;
 }
-.dizme_tm_mobile_menu .hamburger-inner, 
-.dizme_tm_mobile_menu .hamburger-inner:after, 
-.dizme_tm_mobile_menu .hamburger-inner:before{
+.portfolio_mobile_menu .hamburger-inner, 
+.portfolio_mobile_menu .hamburger-inner:after, 
+.portfolio_mobile_menu .hamburger-inner:before{
 	width: 30px;
 	height: 2px;
 }
-.dizme_tm_mobile_menu .hamburger-box{
+.portfolio_mobile_menu .hamburger-box{
 	width: 30px;
 }
-.dizme_tm_mobile_menu .hamburger{
+.portfolio_mobile_menu .hamburger{
 	padding: 0px;
 }
 
@@ -591,7 +591,7 @@ h6 { font-size: 16px; }
 .dizme_tm_hero .avatar img{
 	max-height: 650px;
 }
-.dizme_tm_hero .skills{
+.dizme_tm_hero .projects{
 	display: inline-block;
 	width: 75px;
 	height: 75px;
@@ -599,22 +599,22 @@ h6 { font-size: 16px; }
 	position: absolute;
 	box-shadow: 24px 0px 72px rgba(54,32,152,.3);
 }
-.dizme_tm_hero .skills.illustrator{
+.dizme_tm_hero .projects.illustrator{
 	background-color: #390000;
 	top: 20px;
 	left: -30px;
 }
-.dizme_tm_hero .skills.photoshop{
+.dizme_tm_hero .projects.photoshop{
 	background-color: #001631;
 	right: 70px;
 	top: 80px;
 }
-.dizme_tm_hero .skills.figma{
+.dizme_tm_hero .projects.figma{
 	background-color: #fff;
 	bottom: 60px;
 	left: 140px;
 }
-.dizme_tm_hero .skills .svg{
+.dizme_tm_hero .projects .svg{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -622,10 +622,10 @@ h6 { font-size: 16px; }
 	width: 40px;
 	height: 40px;
 }
-.dizme_tm_hero .skills.illustrator .svg{
+.dizme_tm_hero .projects.illustrator .svg{
 	color: #ff9a00;
 }
-.dizme_tm_hero .skills.photoshop .svg{
+.dizme_tm_hero .projects.photoshop .svg{
 	color: #00a9ff;
 }
 .dizme_tm_down{
@@ -794,57 +794,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	Projects
-/*---------------------------------------------------*/
-.dizme_tm_projects {
-	width: 100%;
-	height: auto;
-	display: flex;
-	/* clear: both;
-	float: left; */
-	padding-top: 120px;
-	position: relative;
-	margin-bottom: 150px;
-}
-.dizme_tm_projects .container .project-grid {
-	display: grid;
-	column-gap: 150px;
-	row-gap: 250px;
-}
-
-.dizme_tm_main_title{
-	width: 100%;
-	max-width: 680px;
-	height: auto;
-	clear: both;
-	text-align: center;
-	margin: 0px auto;
-	
-}
-.dizme_tm_main_title[data-align="center"]{
-	text-align: center;
-	margin: 0px auto;
-}
-/* .dizme_tm_main_title[data-align="right"]{
-	text-align: right;
-	margin: 0px !important;
-} */
-.dizme_tm_main_title span{
-	font-size: 24px;
-	font-weight: 500;
-	color: #f75023;
-	font-family: 'Jost', sans-serif;
-	display: inline-block;
-	margin-bottom: 6px;
-}
-.dizme_tm_main_title h3{
-	font-size: 35px;
-	line-height: 1.25;
-	margin-bottom: 23px;
-}
-
-/*---------------------------------------------------*/
-/*	SkillS
+/*	PROJECTS
 /*---------------------------------------------------*/
 
 .dizme_tm_full_link{
@@ -855,7 +805,7 @@ h6 { font-size: 16px; }
 	right: 0px;
 	z-index: 5;
 }
-.dizme_tm_skills{
+.dizme_tm_projects{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -864,14 +814,34 @@ h6 { font-size: 16px; }
 	margin-bottom: 160px;
 	position: relative;
 }
-.dizme_tm_skills .skills_list{
+.dizme_tm_projects span {
+	font-size: 24px;
+	font-weight: 500;
+	color: #f75023;
+	font-family: 'Jost', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+.dizme_tm_projects h3 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	font-size: 35px;
+}
+.dizme_tm_projects p {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.dizme_tm_projects .project_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 86px;
 }
-.dizme_tm_skills .skills_list ul{
+.dizme_tm_projects .project_list ul{
 	margin: 0px 0px 0px -25px;
 	list-style-type: none;
 	display: flex;
@@ -879,13 +849,13 @@ h6 { font-size: 16px; }
 	position: relative;
 	z-index: 3;
 }
-.dizme_tm_skills .skills_list ul li{
+.dizme_tm_projects .project_list ul li{
 	margin: 0px 0px 25px 0px;
 	width: 50%;
 	float: left;
 	padding-left: 25px;
 }
-.dizme_tm_skills .skills_list ul li .list_inner{
+.dizme_tm_projects .project_list ul li .list_inner{
 	width: 100%;
 	height: 100%;
 	clear: both;
@@ -896,43 +866,43 @@ h6 { font-size: 16px; }
 	box-shadow: 18px 0px 87px rgba(10,15,70,.07);
 	padding: 65px 65px 65px 195px;
 }
-.dizme_tm_skills .skills_list ul li.simple .list_inner{
+.dizme_tm_projects .project_list ul li.simple .list_inner{
 	box-shadow: none;
 	border-radius: 0px;
 	padding: 0px 60px 0px 0px;
 	background-color: transparent;
 }
-.dizme_tm_skills .skills_list ul li.text{
+.dizme_tm_projects .project_list ul li.text{
 	text-align: center;
 	padding: 0px 100px;
 }
-.dizme_tm_skill .skills_list .title{
+.dizme_tm_projects .project_list .title{
 	width: 100%;
 	float: left;
 	margin-bottom: 19px;
 }
-.dizme_tm_skills .skills_list .title h3{
+.dizme_tm_projects .project_list .title h3{
 	font-size: 30px;
 	margin-bottom: 16px;
 }
-.dizme_tm_skills .skills_list .price{
+.dizme_tm_projects .project_list .price{
 	font-weight: 500;
 	font-size: 21px;
 	color: #000;
 	font-family: 'Jost', sans-serif;
 }
-.dizme_tm_skills .skills_list .price span{
+.dizme_tm_projects .project_list .price span{
 	font-size: 24px;
 	color: #f75023;
 }
-.dizme_tm_skills .skills_list .icon{
+.dizme_tm_projects .project_list .icon{
 	position: absolute;
 	left: 65px;
 	top: 65px;
 	width: 95px;
 	height: 95px;
 }
-.dizme_tm_skills .skills_list .icon .svg{
+.dizme_tm_projects .project_list .icon .svg{
 	width: 45px;
 	height: 45px;
 	top: 50%;
@@ -942,55 +912,55 @@ h6 { font-size: 16px; }
 	z-index: 2;
 	color: #E8060A;
 }
-.dizme_tm_skills .skills_list .icon .back{
+.dizme_tm_projects .project_list .icon .back{
 	position: absolute;
 	max-width: 95px;
 	top: 0px;
 }
-.dizme_tm_skills .skills_list .wrapper{
+.dizme_tm_projects .project_list .wrapper{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
 }
-.dizme_tm_skills .skills_list .wrapper h3{
+.dizme_tm_projects .project_list .wrapper h3{
 	font-size: 36px;
 	font-weight: 700;
 	letter-spacing: -.2px;
 	margin-bottom: 35px;
 }
-.dizme_tm_skills .popup_skill_image{
+.dizme_tm_projects .popup_project_image{
 	opacity: 0;
 	visibility: hidden;
 	display: none;
 	position: absolute;
 	z-index: -111;
 }
-.dizme_tm_skills .skill_hidden_details{
+.dizme_tm_projects .project_hidden_details{
 	opacity: 0;
 	visibility: hidden;
 	display: none;
 	position: absolute;
 	z-index: -111;
 }
-.dizme_tm_modalbox .skill_popup_informations{
+.dizme_tm_modalbox .project_popup_informations{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.dizme_tm_modalbox .skill_popup_informations .image{
+.dizme_tm_modalbox .project_popup_informations .image{
 	width: 100%;
 	float: left;
 	position: relative;
 	margin-bottom: 37px;
 }
-.dizme_tm_modalbox .skill_popup_informations .image img{
+.dizme_tm_modalbox .project_popup_informations .image img{
 	position: relative;
 	min-width: 100%;
 	opacity: 0;
 }
-.dizme_tm_modalbox .skill_popup_informations .image .main{
+.dizme_tm_modalbox .project_popup_informations .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1001,44 +971,44 @@ h6 { font-size: 16px; }
 	background-position: center;
 	border-radius: 12px;
 }
-.dizme_tm_modalbox .skill_popup_informations .main_title{
+.dizme_tm_modalbox .project_popup_informations .main_title{
 	width: 100%;
 	float: left;
 	margin-bottom: 23px;
 }
-.dizme_tm_modalbox .skill_popup_informations .main_title h3{
+.dizme_tm_modalbox .project_popup_informations .main_title h3{
 	font-size: 30px;
 	margin-bottom: 5px;
 }
-.dizme_tm_modalbox .skill_popup_informations .main_title span{
+.dizme_tm_modalbox .project_popup_informations .main_title span{
 	font-weight: 500;
     font-size: 21px;
     color: #000;
     font-family: 'Jost', sans-serif;
 }
-.dizme_tm_modalbox .skill_popup_informations .main_title span span{
+.dizme_tm_modalbox .project_popup_informations .main_title span span{
 	font-size: 24px;
     color: #f75023;
 }
-.dizme_tm_modalbox .skill_popup_informations .descriptions{
+.dizme_tm_modalbox .project_popup_informations .descriptions{
 	width: 100%;
 	float: left;
 }
-.dizme_tm_modalbox .skill_popup_informations .descriptions p{
+.dizme_tm_modalbox .project_popup_informations .descriptions p{
 	margin-bottom: 15px;
 }
-.dizme_tm_modalbox .skill_popup_informations .descriptions p:last-child{
+.dizme_tm_modalbox .project_popup_informations .descriptions p:last-child{
 	margin-bottom: 0px;
 }
-.dizme_tm_skills .brush_1{
+.dizme_tm_projects .brush_1{
 	position: absolute;
 	top: 300px;
 	left: 0px;
 }
-.dizme_tm_skills .brush_1 img{
+.dizme_tm_projects .brush_1 img{
 	max-width: 460px;
 }
-.dizme_tm_skills .brush_2{
+.dizme_tm_projects .brush_2{
 	position: absolute;
 	top: 0px;
 	right: 0px;
@@ -1933,7 +1903,7 @@ input[type=number] {
   transition: all .08s ease-out;
 }
 .cursor-outer.cursor-hover{opacity: 0;}
-.dizme_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor{
+.portfolio_all_wrap[data-magic-cursor="hide"] .mouse-cursor{
 	display: none;
 	opacity: 0;
 	visibility: hidden;
@@ -2008,11 +1978,11 @@ input[type=number] {
 	.dizme_tm_hero .text{margin-bottom: 30px;}
 	.dizme_tm_down{bottom: 30px;}
 	.dizme_tm_hero .avatar img{max-height: 400px;}
-	.dizme_tm_hero .skills{width: 50px;height: 50px;}
-	.dizme_tm_hero .skills .svg{width: 25px;height: 25px;}
-	.dizme_tm_hero .skills.figma{bottom: 20px;left: 100px;}
-	.dizme_tm_hero .skills.photoshop{right: 110px;}
-	.dizme_tm_hero .skills.illustrator{left: -20px;}
+	.dizme_tm_hero .projects{width: 50px;height: 50px;}
+	.dizme_tm_hero .projects .svg{width: 25px;height: 25px;}
+	.dizme_tm_hero .projects.figma{bottom: 20px;left: 100px;}
+	.dizme_tm_hero .projects.photoshop{right: 110px;}
+	.dizme_tm_hero .projects.illustrator{left: -20px;}
 	.dizme_tm_process .icon .brush{max-width: 90px;}
 	.dizme_tm_process .icon .svg{width: 45px;height: 45px;}
 	.dizme_tm_about .right .title span{font-size: 22px;}
@@ -2066,7 +2036,7 @@ input[type=number] {
 	.container{padding: 0px 20px;}
 	.mouse-cursor{display: none;}
 	.dizme_tm_header{display: none;}
-	.dizme_tm_mobile_menu{display: block;}
+	.portfolio_mobile_menu{display: block;}
 	.dizme_tm_portfolio .portfolio_list .main{border-radius: 12px;}
 	.dizme_tm_portfolio .mobile_title{display: block;}
 	.dizme_tm_portfolio_titles.visible{opacity: 0;visibility: hidden;}
@@ -2074,7 +2044,7 @@ input[type=number] {
 	.dizme_tm_hero .content{flex-direction: column-reverse;justify-content: center}
 	.dizme_tm_hero .avatar{padding: 0px;width: auto;margin-bottom: 30px;}
 	.dizme_tm_hero .avatar img{max-width: 300px;max-height: 300px;}
-	.dizme_tm_hero .skills{display: none;}
+	.dizme_tm_hero .projects{display: none;}
 	.dizme_tm_hero .details{width: 100%;padding-right: 0px;text-align: center;}
 	.dizme_tm_hero .button{justify-content: center;}
 	.dizme_tm_hero .hello h3{font-size: 25px;}
@@ -2105,10 +2075,10 @@ input[type=number] {
 	.dizme_tm_about .brush_2{display: none;}
 	.dizme_tm_portfolio .brush_1{display: none;}
 	.dizme_tm_portfolio .brush_2{display: none;}
-	.dizme_tm_skills .wrapper{flex-direction: column;align-items: baseline;}
-	.dizme_tm_skills .left{padding-right: 0px;width: 100%;margin-bottom: 50px;}
-	.dizme_tm_skills .right{padding-left: 0px;width: 100%;}
-	.dizme_tm_skills .right img{max-width: 300px;max-height: 300px;}
+	.dizme_tm_projects .wrapper{flex-direction: column;align-items: baseline;}
+	.dizme_tm_projects .left{padding-right: 0px;width: 100%;margin-bottom: 50px;}
+	.dizme_tm_projects .right{padding-left: 0px;width: 100%;}
+	.dizme_tm_projects .right img{max-width: 300px;max-height: 300px;}
 	.dizme_tm_main_title{max-width: 100% !important;}
 	.dizme_tm_services .brush_1{display: none;}
 	.dizme_tm_services .brush_2{display: none;}

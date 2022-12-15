@@ -51,7 +51,7 @@ function dizme_tm_modalbox(){
 	
 	"use strict";
 	
-	jQuery('.dizme_tm_all_wrap').prepend('<div class="dizme_tm_modalbox"><div class="box_inner"><div class="close"><a href="#"><i class="icon-cancel"></i></a></div><div class="description_wrap"></div></div></div>');
+	jQuery('.portfolio_all_wrap').prepend('<div class="dizme_tm_modalbox"><div class="box_inner"><div class="close"><a href="#"><i class="icon-cancel"></i></a></div><div class="description_wrap"></div></div></div>');
 }
 
 // -------------------------------------------------
@@ -86,8 +86,8 @@ function dizme_tm_trigger_menu(){
 	"use strict";
 
 	var hamburger 		= jQuery('.trigger .hamburger');
-	var mobileMenu		= jQuery('.dizme_tm_mobile_menu .dropdown');
-	var mobileMenuList	= jQuery('.dizme_tm_mobile_menu .dropdown .dropdown_inner ul li a');
+	var mobileMenu		= jQuery('.portfolio_mobile_menu .dropdown');
+	var mobileMenuList	= jQuery('.portfolio_mobile_menu .dropdown .dropdown_inner ul li a');
 
 	hamburger.on('click',function(){
 		var element 	= jQuery(this);
