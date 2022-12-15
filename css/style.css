@@ -825,13 +825,13 @@ h6 { font-size: 16px; }
 .dizme_tm_projects h3 {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	font-size: 35px;
 }
 .dizme_tm_projects p {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 20px;
+	margin: 20px 0;
 	font-size: 20px;
 }
 .dizme_tm_projects .project_list{
