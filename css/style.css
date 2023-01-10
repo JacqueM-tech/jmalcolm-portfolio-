@@ -929,6 +929,11 @@ h6 { font-size: 16px; }
 	letter-spacing: -.2px;
 	margin-bottom: 35px;
 }
+.dizme_tm_projects .project_list a img {
+	height: auto;
+	width: 100%;
+
+}
 .dizme_tm_projects .popup_project_image{
 	opacity: 0;
 	visibility: hidden;
