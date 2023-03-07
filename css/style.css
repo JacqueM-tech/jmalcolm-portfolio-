@@ -23,15 +23,6 @@ body{
 	color: #6f6b80;
 }
 
-svg{
-	fill: currentcolor;
-	width: 15px;
-	height: 15px;
-}
-img.svg{
-	width: 15px;
-	height: 15px;
-}
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: #6f6f6f;
 }
@@ -204,7 +195,7 @@ h6 { font-size: 16px; }
     }
 }
 
-/*hiding all*/
+/*hiding all preloader*/
 .preloaded .loader_line:after{
     opacity: 0;
 }
@@ -512,8 +503,8 @@ h6 { font-size: 16px; }
 .dizme_tm_hero .brush img {
 	position: absolute;
 	z-index: -1;
-	right: -380px;
-	top: 0px;
+	right: -300px;
+	top: -100px;
 	width: 450px;
 	height: 450px;
 }
@@ -674,8 +665,8 @@ h6 { font-size: 16px; }
 .dizme_tm_skills .brush img {
 	position: absolute;
 	z-index: -1;
-	left: -350px;
-	top: -60px;
+	left: -300px;
+	top: -160px;
 	width: 400px;
 	height: 400px;
 }
@@ -718,7 +709,7 @@ h6 { font-size: 16px; }
     width: 25%;
     border: 2px solid #eee;
     text-align: center;
-    height: 280px;
+    /* height: 280px; */
     line-height: 180px;
     position: relative;
     margin-top: -2px;
@@ -736,22 +727,23 @@ h6 { font-size: 16px; }
 /*	ABOUT
 /*---------------------------------------------------*/
 
+.dizme_tm_about .brush img {
+	position: absolute;
+	z-index: -1;
+	right: -350px;
+	top: -240px;
+	width: 450px;
+	height: 400px;
+}
 .dizme_tm_about{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
-	margin-top: 180px;
+	margin-top: 250px;
 }
-.dizme_tm_about .brush img {
-	position: absolute;
-	z-index: -1;
-	right: -380px;
-	top: -150px;
-	width: 450px;
-	height: 400px;
-}
+
 .dizme_tm_about span {
 	font-size: 24px;
 	font-weight: 500;
@@ -969,68 +961,11 @@ h6 { font-size: 16px; }
 	position: absolute;
 	z-index: -111;
 }
-.dizme_tm_modalbox .project_popup_informations{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.dizme_tm_modalbox .project_popup_informations .image{
-	width: 100%;
-	float: left;
-	position: relative;
-	margin-bottom: 37px;
-}
-.dizme_tm_modalbox .project_popup_informations .image img{
-	position: relative;
-	min-width: 100%;
-	opacity: 0;
-}
-.dizme_tm_modalbox .project_popup_informations .image .main{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border-radius: 12px;
-}
-.dizme_tm_modalbox .project_popup_informations .main_title{
-	width: 100%;
-	float: left;
-	margin-bottom: 23px;
-}
-.dizme_tm_modalbox .project_popup_informations .main_title h3{
-	font-size: 30px;
-	margin-bottom: 5px;
-}
-.dizme_tm_modalbox .project_popup_informations .main_title span{
-	font-weight: 500;
-    font-size: 21px;
-    color: #000;
-    font-family: 'Jost', sans-serif;
-}
-.dizme_tm_modalbox .project_popup_informations .main_title span span{
-	font-size: 24px;
-    color: #f75023;
-}
-.dizme_tm_modalbox .project_popup_informations .descriptions{
-	width: 100%;
-	float: left;
-}
-.dizme_tm_modalbox .project_popup_informations .descriptions p{
-	margin-bottom: 15px;
-}
-.dizme_tm_modalbox .project_popup_informations .descriptions p:last-child{
-	margin-bottom: 0px;
-}
 .dizme_tm_projects .brush_1 img {
 	position: absolute;
 	z-index: -1;
-	left: -200px;
-	top: 0px;
+	left: -175px;
+	top: -150px;
 	width: 400px;
 	height: 380px;
 }
@@ -1040,475 +975,6 @@ h6 { font-size: 16px; }
 	bottom: -150px;
 }
 
-
-
-/*---------------------------------------------------*/
-/*	12) DIZME NEWS
-/*---------------------------------------------------*/
-
-.dizme_tm_news{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding-top: 185px;
-	margin-bottom: 160px;
-	position: relative;
-}
-.dizme_tm_news .news_list{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding-top: 65px;
-}
-.dizme_tm_news ul{
-	margin: 0px 0px 0px -25px;
-	list-style-type: none;
-}
-.dizme_tm_news ul li{
-	margin: 0px 0px 25px 0px;
-	width: 33.3333%;
-	float: left;
-	padding-left: 25px;
-}
-.dizme_tm_news ul li .list_inner{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	position: relative;
-}
-.dizme_tm_news ul li .image{
-	position: relative;
-	overflow: hidden;
-	margin-bottom: 20px;
-	border-radius: 12px;
-}
-.dizme_tm_news ul li .image img{
-	position: relative;
-	opacity: 0;
-	min-width: 100%;
-}
-.dizme_tm_news ul li .image .main{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border-radius: 12px;
-	transform: scale(1) translateZ(0);
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.dizme_tm_news ul li .image:hover .main{
-	transform: scale(1.1) translateZ(0);
-}
-.dizme_tm_news ul li .date{
-	position: absolute;
-	top: 18px;
-	right: 18px;
-	z-index: 2;
-	display: inline-block;
-	background-color: #1cbe59;
-	border-radius: 12px;
-	text-align: center;
-	padding: 13px 19px 12px 19px;
-	line-height: 1;
-}
-.dizme_tm_news ul li .date h3{
-	font-size: 24px;
-	color: #fff;
-	font-family: inherit;
-	line-height: 1.2;
-}
-.dizme_tm_news ul li .date span{
-	font-size: 14px;
-	color: #fff;
-}
-.dizme_tm_news ul li .details .category a{
-	font-size: 16px;
-	color: #f75023;
-	font-family: 'Jost', sans-serif;
-	text-decoration: none;
-	font-weight: 500;
-	display: inline-block;
-	margin-bottom: 2px;
-}
-.dizme_tm_news ul li .details .title{
-	line-height: 1.4;
-}
-.dizme_tm_news ul li .details .title a{
-	font-size: 21px;
-	color: #000;
-	display: inline-block;
-	text-decoration: none;
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.dizme_tm_news ul li .details .title a:hover{
-	color: #f75023;
-}
-.dizme_tm_news .news_hidden_details{
-	display: none;
-	opacity: 0;
-	visibility: hidden;
-	position: absolute;
-	z-index: -11;
-}
-.dizme_tm_modalbox .news_popup_informations{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.dizme_tm_modalbox .news_popup_informations .image{
-	position: relative;
-	margin-bottom: 37px;
-}
-.dizme_tm_modalbox .news_popup_informations .image img{
-	position: relative;
-	opacity: 0;
-	min-width: 100%;
-}
-.dizme_tm_modalbox .news_popup_informations .image .main{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border-radius: 12px;
-}
-.dizme_tm_modalbox .news_popup_informations .details{
-	width: 100%;
-	float: left;
-	margin-bottom: 20px;
-}
-.dizme_tm_modalbox .news_popup_informations .details span a{
-	text-decoration: none;
-	color: #6f6b80;
-	font-family: 'Jost', sans-serif;
-	font-size: 16px;
-}
-.dizme_tm_modalbox .news_popup_informations .details h3{
-	font-size: 22px;
-	margin-bottom: 3px;
-}
-.dizme_tm_modalbox .news_popup_informations .text{
-	width: 100%;
-	float: left;
-}
-.dizme_tm_modalbox .news_popup_informations .text p{
-	margin-bottom: 15px;
-}
-.dizme_tm_modalbox .news_popup_informations .text p:last-child{
-	margin-bottom: 0px;
-}
-.dizme_tm_news .brush_1{
-	position: absolute;
-	top: 250px;
-	left: 115px;
-}
-.dizme_tm_news .brush_2{
-	position: absolute;
-	top: 0px;
-	right: 0px;
-}
-
-/*---------------------------------------------------*/
-/*	13) DIZME SUBSCRIBE
-/*---------------------------------------------------*/
-
-.dizme_tm_subscribe{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.dizme_tm_subscribe .inner{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	position: relative;
-}
-.dizme_tm_subscribe .background{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	border-radius: 12px;
-}
-.dizme_tm_subscribe .background .dots{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	border-radius: 12px;
-}
-.dizme_tm_subscribe .background .overlay{
-	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	background-color: rgba(128,103,240,.92);
-	z-index: 1;
-	border-radius: 12px;
-}
-.dizme_tm_subscribe .content{
-	position: relative;
-	z-index: 2;
-	display: flex;
-	align-items: center;
-	padding: 83px 90px 86px 90px;
-}
-.dizme_tm_subscribe .left{
-	width: 50%;
-	padding-right: 40px;
-}
-.dizme_tm_subscribe .subtitle{
-	display: inline-block;
-	font-size: 21px;
-	font-weight: 500;
-	color: #fff;
-	font-family: 'Jost', sans-serif;
-	margin-bottom: 5px;
-}
-.dizme_tm_subscribe .title{
-	color: #fff;
-	font-size: 48px;
-	margin-bottom: 10px;
-}
-.dizme_tm_subscribe .text{
-	color: #fff;
-}
-.dizme_tm_subscribe .right{
-	width: 50%;
-	padding-left: 10px;
-}
-.dizme_tm_subscribe .field{
-	width: 100%;
-	position: relative;
-}
-.dizme_tm_subscribe .field input[type="text"]{
-	width: 100%;
-	height: 72px;
-	border-radius: 12px;
-	color: #6f6b80;
-	background-color: #fff;
-	padding-left: 30px;
-}
-.dizme_tm_subscribe .field input[type="text"]:focus{
-	outline: none;
-}
-.dizme_tm_subscribe .field input[type="submit"]{
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	height: 72px;
-	border-top-right-radius: 12px;
-	border-bottom-right-radius: 12px;
-	color: #fff;
-	font-family: 'Jost', sans-serif;
-	font-size: 18px;
-	text-transform: capitalize;
-	font-weight: 500;
-	background-color: #f75023;
-	padding: 0px 35px;
-}
-
-/*---------------------------------------------------*/
-/*	14) DIZME CONTACT 
-/*---------------------------------------------------*/
-
-.dizme_tm_contact{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding-top: 190px;
-	margin-bottom: 200px;
-	position: relative;
-}
-.dizme_tm_contact .contact_inner{
-	width: 100%;
-	display: flex;
-	margin-top: 80px;
-	margin-bottom: 182px;
-	position: relative;
-}
-.dizme_tm_contact .left{
-	width: 50%;
-}
-.dizme_tm_contact .left ul{
-	margin: 0px;
-	list-style-type: none;
-}
-.dizme_tm_contact .left ul li{
-	margin: 0px 0px 15px 0px;
-}
-.dizme_tm_contact .left ul li:last-child{
-	margin-bottom: 0px;
-}
-.dizme_tm_contact .left .list_inner{
-	display: flex;
-	align-items: center;
-}
-.dizme_tm_contact .left .icon{
-	width: 88px;
-	height: 88px;
-	border-radius: 100%;
-	position: relative;
-}
-.dizme_tm_contact .left .icon i{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	font-size: 24px;
-}
-.dizme_tm_contact .left .short{
-	padding-left: 25px;
-}
-.dizme_tm_contact .left .short h3{
-	font-size: 30px;
-	margin-bottom: 5px;
-}
-.dizme_tm_contact .left .short a{
-	text-decoration: none;
-	color: #6f6b80;
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-}
-.dizme_tm_contact .left .short a:hover{
-	color: #f75023;
-}
-.dizme_tm_contact .right{
-	width: 50%;
-}
-.dizme_tm_contact .fields{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.dizme_tm_contact .input_list{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.dizme_tm_contact .input_list ul{
-	margin: 0px 0px 0px -12px;
-	list-style-type: none;
-}
-.dizme_tm_contact .input_list ul li{
-	margin: 0px 0px 12px 0px;
-	width: 50%;
-	float: left;
-	padding-left: 12px;
-}
-.dizme_tm_contact input{
-	width: 100%;
-	height: 58px;
-	padding: 0px 30px;
-	background-color: transparent;
-	border:1px solid #d6dbe5;
-	border-radius: 12px;
-	color: #6f6b80;
-	font-size: 18px;
-}
-.dizme_tm_contact input:focus{
-	background-color: transparent;
-	outline: none;
-}
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
-}
-input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
-}
-.dizme_tm_contact .message_area{
-	width: 100%;
-	float: left;
-	margin-bottom: 4px;
-}
-.dizme_tm_contact .message_area textarea{
-	width: 100%;
-	height: 200px;
-	padding: 16px 30px 30px 30px !important;
-	background-color: transparent;
-	border:1px solid #d6dbe5;
-	border-radius: 12px;
-	color: #6f6b80;
-	font-size: 18px;
-}
-.dizme_tm_contact .message_area textarea:focus{
-	background-color: transparent;
-	outline: none;
-}
-.dizme_tm_contact .empty_notice{
-	color: #F52225;
-	margin-bottom: 7px;
-	display: none;
-	text-align: left;
-	font-weight: 500;
-}
-.dizme_tm_contact .contact_error{
-	color: #F52225;
-	text-align: left;
-	font-weight: 500;
-}
-.dizme_tm_contact .returnmessage{
-	color:#3A00FF;
-	margin-bottom: 7px;
-	text-align: left;
-	font-weight: 500;
-}
-.dizme_tm_map{
-	width: 100%;
-	float: left;
-}
-.gmap_canvas{
-	border-radius: 12px;
-}
-.dizme_tm_contact .brush_1{
-	position: absolute;
-	top: 100px;
-	left: 0px;
-}
-.dizme_tm_contact .contact_inner .brush_2{
-	position: absolute;
-	bottom: -100px;
-	right: -150px;
-}
 
 /*---------------------------------------------------*/
 /*	15) DIZME COPYRIGHT
@@ -1524,7 +990,6 @@ input[type=number] {
 	font-size: 18px;
 	text-align: center;
 }
-
 
 
 /*---------------------------------------------------*/
@@ -1599,54 +1064,20 @@ input[type=number] {
 	.dizme_tm_hero .projects.figma{bottom: 20px;left: 100px;}
 	.dizme_tm_hero .projects.photoshop{right: 110px;}
 	.dizme_tm_hero .projects.illustrator{left: -20px;}
-	.dizme_tm_process .icon .brush{max-width: 90px;}
-	.dizme_tm_process .icon .svg{width: 45px;height: 45px;}
 	.dizme_tm_about .right .title span{font-size: 22px;}
 	.dizme_tm_about .right .title h3{font-size: 40px;}
 	.dizme_tm_main_title{max-width: 550px;}
 	.dizme_tm_main_title span{font-size: 22px;}
 	.dizme_tm_main_title h3{font-size: 38px;}
 	.dizme_tm_main_title h3{margin-bottom: 16px;}
-	.dizme_tm_services .service_list .title h3{font-size: 25px;margin-bottom: 10px;}
-	.dizme_tm_services .service_list .price{font-size: 18px;}
-	.dizme_tm_services .service_list .price span{font-size: 20px;}
-	.dizme_tm_testimonials .in{max-width: 650px;}
-	.dizme_tm_testimonials .text p{font-size: 19px;}
-	.dizme_tm_testimonials .detail h3{font-size: 22px;}
-	.dizme_tm_testimonials .left_details .det_image.two{left: 120px;}
-	.dizme_tm_testimonials .left_details .det_image.three{left: 200px;}
-	.dizme_tm_testimonials .left_details .border{left: 240px;}
-	.dizme_tm_testimonials .right_details .det_image.two{right: 170px;}
-	.dizme_tm_testimonials .right_details .border{right: 68px;}
-	.dizme_tm_testimonials .right_details .circle.yellow{right: 210px;}
-	.dizme_tm_testimonials .right_details .circle.yellow{width: 55px;height: 55px;}
 	.dizme_tm_about .brush_1{left: 40px;}
 	.dizme_tm_about .numbers .wrapper{padding: 25px 30px 21px 26px;}
 	.dizme_tm_about .numbers .wrapper h3{font-size: 50px;}
 	.dizme_tm_about .numbers .wrapper .name{font-size: 18px;}
 	.dizme_tm_portfolio .brush_1{left: 50px;}
 	.dizme_tm_portfolio .brush_2{right: 10px;}
-	.dizme_tm_news .brush_1{left: 60px;}
-	.dizme_tm_contact .contact_inner .brush_2{right: -80px;}
-	.dizme_tm_modalbox .description_wrap{padding: 40px;}
-	.dizme_tm_modalbox .description_wrap:before{height: 40px;}
-	.dizme_tm_modalbox .description_wrap:after{height: 40px;}
-	.dizme_tm_modalbox .box_inner{top: 50px;bottom: 50px;width: 800px;}
-	.dizme_tm_modalbox .close{margin-left: 20px;}
 }
 @media (max-width: 1200px) {
-	.dizme_tm_modalbox .box_inner{width: 500px;}
-	.dizme_tm_modalbox .description_wrap{padding: 35px;}
-	.dizme_tm_modalbox .description_wrap:before{height: 35px;}
-	.dizme_tm_modalbox .description_wrap:after{height: 35px;}
-	.dizme_tm_modalbox .main_details{flex-direction: column;align-items: baseline;}
-	.dizme_tm_modalbox .main_details .textbox{width: 100%;padding: 0px;margin-bottom: 40px;}
-	.dizme_tm_modalbox .main_details .detailbox{width: 100%;padding: 0px;}
-	.dizme_tm_modalbox .additional_images ul{margin: 0px;}
-	.dizme_tm_modalbox .additional_images ul li{width: 100% !important;padding: 0px;}
-	.dizme_tm_modalbox .popup_details .top_image{margin-bottom: 25px;}
-	.dizme_tm_modalbox .service_popup_informations .image{margin-bottom: 25px;}
-	.dizme_tm_modalbox .news_popup_informations .image{margin-bottom: 25px;}
 }
 @media (max-width: 1040px) {
 	.dizme_tm_skills .brush img {
@@ -1673,8 +1104,6 @@ input[type=number] {
 	.dizme_tm_hero .text{margin-bottom: 30px;}
 	.dizme_tm_hero .text p{font-size: 20px;}
 	.dizme_tm_down {bottom: 20px;}
-	.dizme_tm_process ul{margin: 0px;}
-	.dizme_tm_process ul li{width: 100%;padding-left: 0px;}
 	.dizme_tm_about .wrapper{flex-direction: column;text-align: center;}
 	.dizme_tm_about .left{padding-right: 0px;width: 100%;margin-bottom: 40px;}
 	.dizme_tm_about .left .image img{max-width: 300px;max-height: 300px;}
@@ -1698,56 +1127,58 @@ input[type=number] {
 	.dizme_tm_projects .right{padding-left: 0px;width: 100%;}
 	.dizme_tm_projects .right img{max-width: 300px;max-height: 300px;}
 	.dizme_tm_main_title{max-width: 100% !important;}
-	.dizme_tm_services .brush_1{display: none;}
-	.dizme_tm_services .brush_2{display: none;}
-	.dizme_tm_services .service_list ul{margin: 0px;}
-	.dizme_tm_services .service_list ul li{width: 100%;padding-left: 0px;}
-	.dizme_tm_testimonials .left_details{display: none;}
-	.dizme_tm_testimonials .right_details{display: none;}
-	.dizme_tm_testimonials .brush_1{display: none;}
-	.dizme_tm_testimonials .icon .svg{width: 50px;height: 50px;}
-	.dizme_tm_testimonials .text p{font-size: 20px;}
-	.dizme_tm_testimonials .detail h3{font-size: 21px;}
-	.dizme_tm_partners .brush_1{display: none;}
-	.dizme_tm_news .brush_1{display: none;}
-	.dizme_tm_news .brush_2{display: none;}
-	.dizme_tm_contact .brush_1{display: none;}
-	.dizme_tm_news ul li{width: 50%;}
-	.dizme_tm_subscribe .content{flex-direction: column;align-items: baseline;padding-left: 30px;padding-right: 30px;}
-	.dizme_tm_subscribe .left{padding: 0px;width: 100%;margin-bottom: 40px;}
-	.dizme_tm_subscribe .right{padding: 0px;width: 100%;}
-	.dizme_tm_subscribe .subtitle{font-size: 19px;}
-	.dizme_tm_subscribe .title{font-size: 35px;}
-	.dizme_tm_contact .contact_inner{flex-direction: column;align-items: baseline;}
-	.dizme_tm_contact .left .short h3{font-size: 25px;}
-	.dizme_tm_contact .left{width: 100%;margin-bottom: 40px;}
-	.dizme_tm_contact .right{width: 100%;}
-	.dizme_tm_contact .contact_inner .brush_2{display: none;}
 	.dizme_tm_copyright .inner{flex-direction: column;align-items: center;}
 }
 @media (max-width: 768px) {
+	#preloader {
+		display: none;
+	}
+	.dizme_tm_hero .brush img {
+		display: none;
+	}
 	.dizme_tm_hero .avatar .image img {
-		margin-top: -300px;
+		margin-top: -320px;
 	}
 	.dizme_tm_hero .hello .orangeText {
 		margin-top: -40px;
 	}
 	.dizme_tm_hero .name {
-		margin-bottom: -40px;
-	}
-	.dizme_tm_button {
-		margin-bottom: -150px;
+		margin-bottom: -30px;
 	}
 	.dizme_tm_skills {
-		margin-top: -45px;
+		margin-top: -100px;
 	}
-	.dizme_tm_skills h1 {
-		margin-top: 80px;
+	.dizme_tm_button {
+		margin-top: -150px;
+		margin-bottom: -230px;
 	}
 	.dizme_tm_skills .brush img {
 		display: none;
 	}
-	
+	.dizme_tm_skills ul{
+		margin: -25px -50px -20px -20px;
+		min-width: calc(100% + 12px);
+	} 
+	.dizme_tm_about .heading span {
+		margin-top: -200px;
+	}
+	.dizme_tm_about .heading h3 {
+		margin-bottom: -50px;
+	}
+	.dizme_tm_about .brush img {
+		display: none;
+	}
+	.dizme_tm_projects .brush_1 img {
+		display: none;
+	}
+	.dizme_tm_projects .brush_2 {
+		display: none;
+	}
+	.dizme_tm_projects .project_list ul li{
+		margin: 0px 0px 25px 0px;
+		width: 100%;
+		float: left;
+	}
 	.dizme_tm_hero .avatar img{max-width: 220px;max-height: 220px;}
 	.dizme_tm_hero .job{margin-bottom: 15px;}
 	.dizme_tm_hero .job p{font-size: 18px;}
@@ -1757,40 +1188,14 @@ input[type=number] {
 	.dizme_tm_about .social{padding-left: 15px;}
 	.dizme_tm_portfolio .portfolio_list ul{margin: 0px;}
 	.dizme_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
-	.dizme_tm_services .service_list .icon{display: none;}
-	.dizme_tm_services .service_list ul li .list_inner{padding: 40px 20px;}
-	.dizme_tm_services .service_list .title h3{font-size: 25px;}
-	.dizme_tm_services .service_list .price{font-size: 19px;}
-	.dizme_tm_services .service_list .price span{font-size: 21px;}
-	.dizme_tm_skills ul li{width: 50%;}
-	.dizme_tm_news ul{margin: 0px;}
-	.dizme_tm_news ul li{width: 100%;padding-left: 0px;}
-	.dizme_tm_contact .input_list ul{margin: 0px;}
-	.dizme_tm_contact .input_list ul li{width: 100%;padding-left: 0px;}
-	.dizme_tm_subscribe .field input[type="submit"]{padding: 0px 15px;}
-	.dizme_tm_modalbox .box_inner{width: 300px;}
-	.dizme_tm_modalbox .portfolio_main_title h3{font-size: 19px;margin-bottom: 2px;}
-	.dizme_tm_modalbox .description_wrap{padding: 20px;}
-	.dizme_tm_modalbox .description_wrap:before{height: 20px;}
-	.dizme_tm_modalbox .description_wrap:after{height: 20px;}
-	.dizme_tm_modalbox .close{left: auto;right: 0px;margin-left: 0px;top: -40px;}
-	.dizme_tm_modalbox .close a{width: 30px;height: 30px;}
-	.dizme_tm_modalbox .service_popup_informations .main_title h3{font-size: 19px;}
-	.dizme_tm_modalbox .service_popup_informations .main_title span{font-size: 16px;}
-	.dizme_tm_modalbox .service_popup_informations .main_title span span{font-size: 16px;}
-	.dizme_tm_modalbox .service_popup_informations .main_title h3{margin-bottom: 0px;}
-	.dizme_tm_modalbox .news_popup_informations .details h3{font-size: 19px;}
+	.dizme_tm_skills ul li{width: 25%;}
 	.dizme_tm_hero{margin-bottom: 135px;}
 	.dizme_tm_about{padding-top: 50px;}
 	.dizme_tm_portfolio{padding-top: 113px;margin-bottom: 88px;}
 	.dizme_tm_portfolio .portfolio_filter{padding-top: 53px;padding-bottom: 46px;}
-	.dizme_tm_services{padding-top: 120px;margin-bottom: 98px;}
-	.dizme_tm_testimonials .list_wrapper{margin-top: 65px;}
-	.dizme_tm_testimonials .in{padding: 0px 20px;}
-	.dizme_tm_testimonials{margin-bottom: 127px;}
-	.dizme_tm_testimonials .owl-theme .owl-nav.disabled+.owl-dots{margin-top: 50px;}
-	.dizme_tm_news{padding-top: 120px;margin-bottom: 100px;}
-	.dizme_tm_contact{padding-top: 123px;}
-	.dizme_tm_contact .contact_inner{margin-top: 67px;margin-bottom: 120px;}
-	.dizme_tm_contact{margin-bottom: 120px;}
+}
+
+@media (max-width: 600px) {
+	.dizme_tm_skills ul li{width: 50%;}
+
 }
