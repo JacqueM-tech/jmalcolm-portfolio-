@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 /*---------------------------------------------------*/
 /* BASE
 /*---------------------------------------------------*/
@@ -1038,7 +1037,7 @@ h6 { font-size: 16px; }
 }
 
 /*---------------------------------------------------*/
-/*	18) DIZME MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	MEDIA QUERIES 
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
@@ -1078,18 +1077,16 @@ h6 { font-size: 16px; }
 	.dizme_tm_portfolio .brush_2{right: 10px;}
 }
 @media (max-width: 1200px) {
+	/* .portfolio_mobile_menu {
+		display: none;
+	}  */
+	
 }
 @media (max-width: 1040px) {
 	.dizme_tm_skills .brush img {
 		display: none;
 	}
 	.container{padding: 0px 20px;}
-	.dizme_tm_header{display: none;}
-	.portfolio_mobile_menu{display: block;}
-	.dizme_tm_portfolio .portfolio_list .main{border-radius: 12px;}
-	.dizme_tm_portfolio .mobile_title{display: block;}
-	.dizme_tm_portfolio_titles.visible{opacity: 0;visibility: hidden;}
-	.dizme_tm_portfolio .portfolio_list ul li .inner:hover .main{transform: scale(1);}
 	.dizme_tm_hero .content{flex-direction: column-reverse;justify-content: center}
 	.dizme_tm_hero .avatar{padding: 0px;width: auto;margin-bottom: 30px;}
 	.dizme_tm_hero .avatar img{max-width: 300px;max-height: 300px;}
@@ -1130,6 +1127,10 @@ h6 { font-size: 16px; }
 	.dizme_tm_copyright .inner{flex-direction: column;align-items: center;}
 }
 @media (max-width: 768px) {
+	.portfolio_mobile_menu{display: block;}
+	
+	.dizme_tm_header{
+		display: none;}
 	#preloader {
 		display: none;
 	}
@@ -1148,6 +1149,8 @@ h6 { font-size: 16px; }
 	.dizme_tm_skills {
 		margin-top: -100px;
 	}
+	.dizme_tm_skills ul li {
+		width: 50%;}
 	.dizme_tm_button {
 		margin-top: -150px;
 		margin-bottom: -230px;
@@ -1180,8 +1183,6 @@ h6 { font-size: 16px; }
 		float: left;
 	}
 	.dizme_tm_hero .avatar img{max-width: 220px;max-height: 220px;}
-	.dizme_tm_hero .job{margin-bottom: 15px;}
-	.dizme_tm_hero .job p{font-size: 18px;}
 	.dizme_tm_hero .hello h3{font-size: 21px;}
 	.dizme_tm_hero .text p{font-size: 16px;}
 	.dizme_tm_hero .name h3{font-size: 42px;}
@@ -1195,7 +1196,3 @@ h6 { font-size: 16px; }
 	.dizme_tm_portfolio .portfolio_filter{padding-top: 53px;padding-bottom: 46px;}
 }
 
-@media (max-width: 600px) {
-	.dizme_tm_skills ul li{width: 50%;}
-
-}
