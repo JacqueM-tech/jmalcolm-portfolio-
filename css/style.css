@@ -85,15 +85,15 @@ h4 { font-size: 24px; }
 h5 { font-size: 20px; }
 h6 { font-size: 16px; }
 
-.portfolio_all_wrap{
+.portfolio-all-wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.portfolio_all_wrap,
-.portfolio_all_wrap *{
+.portfolio-all-wrap,
+.portfolio-all-wrap *{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
@@ -254,10 +254,10 @@ h6 { font-size: 16px; }
 	align-items: center;
 	justify-content: space-between;
 }
-.portfolio_mobile_menu .mobile_in .logo img{
+/* .portfolio_mobile_menu .mobile_in .logo img{
 	max-width: 90px;
 	max-height: 70px;
-}
+} */
 .portfolio_mobile_menu .trigger{
 	line-height: 0;
 }
@@ -1044,11 +1044,12 @@ h6 { font-size: 16px; }
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
+	
 	body{font-size: 16px;}
 	.container{max-width:1170px;}
 	.dizme_tm_header{padding: 15px 0px;}
 	.dizme_tm_header.animate{padding: 10px 0px;}
-	.dizme_tm_header .logo img{display: none;}
+	/* .dizme_tm_header .logo img{display: none;} */
 	.dizme_tm_header .menu ul li{margin-right: 30px;}
 	.dizme_tm_hero .hello h3{font-size: 25px;}
 	.dizme_tm_hero .name h3{font-size: 60px;}
@@ -1168,9 +1169,9 @@ h6 { font-size: 16px; }
 		margin-top: -2.5px;
 		line-height: 30px;
 	}
-	.dizme_tm_button .anchor {
-		margin-top: 20px;
-	}
+	/* .dizme_tm_button .anchor {
+		margin-top: 10px;
+	} */
 	.dizme_tm_skills  {
 		margin-top: -150px;
 	}
