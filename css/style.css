@@ -1142,25 +1142,25 @@ h6 { font-size: 16px; }
 		display: none;
 	}
 	.dizme_tm_hero .avatar .image img {
-		margin-top: -120px;
+		margin-top: -100px;
 		margin-bottom: -100px;
 	}
 	.dizme_tm_hero .avatar img {
-		max-width: 320px;
-		max-height: 320px;
+		max-width: 300px;
+		max-height: 300px;
 		border-radius: 50%;
 	}
 	.dizme_tm_hero .hello h3 {
-		font-size: 21px;
+		font-size: 22px;
 	}
 	.dizme_tm_hero .text p {
 		font-size: 16px;
 	}
 	.dizme_tm_hero .name h3 {
-		font-size: 42px;
+		font-size: 40px;
 	}
 	.dizme_tm_hero .hello {
-		margin-top: -25px;
+		margin-top: -20px;
 	}
 	.dizme_tm_hero .name {
 		margin-top: 15px;
@@ -1169,11 +1169,11 @@ h6 { font-size: 16px; }
 		margin-top: -2.5px;
 		line-height: 30px;
 	}
-	/* .dizme_tm_button .anchor {
-		margin-top: 10px;
-	} */
+	.dizme_tm_button .anchor span {
+		margin-top: -20px;
+	}
 	.dizme_tm_skills  {
-		margin-top: -150px;
+		margin-top: -120px;
 	}
 	.dizme_tm_skills h3 {
 		margin-bottom: 30px;
@@ -1194,7 +1194,7 @@ h6 { font-size: 16px; }
 		display: none;
 	}
 	.dizme_tm_about {
-		padding-top: 40px;
+		padding-top: 50px;
 	}
 	.dizme_tm_about .heading span {
 		margin-top: -175px;
